@@ -1,9 +1,7 @@
-# FRONTEND FOR FINAL PROYECT CERTIFIED TECH DEVELOPER.
+# FRONTEND FOR FINAL PROYECT "HOMU" FROM CERTIFIED TECH DEVELOPER
+In the project directory, you can run the following scripts:
 
-
-## Available Scripts
-
-In the project directory, you can run:
+## General:
 
 ### `npm install react-router-dom`
 
@@ -15,13 +13,15 @@ In the project directory, you can run:
 
 ### `npm i body-parser cors dotenv express nodemailer`
 
-## Testing
+
+## Testing:
 
 ### `npm install --save -dev @testing-library/react @testing-library/jest-dom`
 
 ### `npm install --save -dev jest`
 
-## Datepicker
+
+## Datepicker:
 
 ### `npm i react-calendar`
 
