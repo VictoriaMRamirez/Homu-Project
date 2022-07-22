@@ -1,6 +1,5 @@
 # FRONTEND FOR FINAL PROYECT CERTIFIED TECH DEVELOPER.
 
-----in progress----
 
 ## Available Scripts
 
