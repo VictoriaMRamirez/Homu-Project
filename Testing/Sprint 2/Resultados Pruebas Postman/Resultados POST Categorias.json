@@ -1,0 +1,64 @@
+{
+	"id": "1fba4c6c-326f-4864-8592-46994bae7a15",
+	"name": "Proyecto Integrador - Equipo 6",
+	"timestamp": "2022-06-09T04:24:39.419Z",
+	"collection_id": "20469196-75a58b7b-a6f5-48b6-84f1-adf242ce46d6",
+	"folder_id": "20469196-408131d7-089a-4264-9b13-744988832a29",
+	"environment_id": "18114274-3261d9da-f456-47a9-b797-13345095175d",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fa72fd6f-317e-46b1-b742-9a1080915fd0",
+			"name": "Agregar Categorias (5)",
+			"time": 118,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				5722,
+				74,
+				100,
+				120,
+				118
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 6134,
+	"collection": {
+		"requests": [
+			{
+				"id": "fa72fd6f-317e-46b1-b742-9a1080915fd0",
+				"method": "POST"
+			}
+		]
+	}
+}

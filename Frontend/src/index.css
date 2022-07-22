@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --main-color: #727272;
+  --gradient-main: #000000;
+  --color2: #0d0d0d;
+  --color3: #202026;
+  --color3-gradient: #383939;
+  --color4: #d0d0d0;
+  --color5: #f2eee9;
+  --color-disabled: #dcd8d8;
+  --light: white;
+  --complementary-strong: #c27801;
+  --complementary: #f99a01;
+  --complementary-soft: #ffd9a0;
+  --selected-day-color:#fbbb54;
+  
+  }

@@ -1,0 +1,115 @@
+.rulesDetailsContainer {
+  padding-bottom: 6rem;
+}
+
+.rulesDetailTitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+
+  color: var(--color3);
+
+  padding: 0.5rem 1rem 0rem 1.1rem;
+
+  text-decoration: underline;
+}
+
+.hrRuleDetail {
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: var(--complementary);
+  height: 0.5px;
+
+  margin: 0.8rem 0 0 0;
+}
+
+.rulesIcon {
+  color: var(--complementary);
+  margin: 0.5rem 0.5rem 0 0;
+
+  font-size: 1.2rem;
+}
+
+.rulesDetailSubtitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 28px;
+
+  color: var(--color3);
+
+  padding: 1rem 0 1rem 0rem;
+}
+
+.rulesIconList {
+  font-size: 0.8rem;
+
+  color: var(--color3);
+  align-items: center;
+
+  margin-right: 0.5rem;
+
+  text-align: center;
+}
+
+.rulesDetailOne,
+.rulesDetailList,
+.rulesDetailThree {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+p{
+  color: var(--color3);
+}
+
+@media screen and (min-width: 768px) {
+  .rulesDetailFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 100%;
+  }
+
+  .rulesDetailOne{
+    flex: 10%;
+    align-self: flex-start;
+  }
+
+  .rulesDetailOne p{
+    width: 100%;
+  }
+
+  .rulesDetailThree{
+    margin-top: 1.5rem;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .rulesDetailOne{
+    flex-direction: row;
+  }
+
+  .rulesDetailContainerFlex{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .rulesDetailList{
+    width: 55%;
+    height: 100%;
+  }
+
+  .rulesDetailThree{
+    margin-top: 0;
+    width: 33%;
+    margin-right: 1.5rem;
+  }
+
+  .rulesDetailFlex {
+    width: 66%;
+  }
+}

@@ -1,0 +1,93 @@
+
+.navbarButton {
+  width: 95%;
+  height: 2.5rem;
+  border-radius: 4px;
+  background-color: var(--main-color);
+  margin: 0.8rem 0 0.5rem 0.8rem;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+
+  transition: 0.8s;
+
+  margin-top: 1rem;
+}
+
+.navbarButton:hover,
+.navbarButton:focus {
+  background-color: var(--complementary);
+}
+
+.buttonCreateAll{
+  width:60%;
+  height: 3rem;
+  border-radius: 4px;
+  background-color: var(--main-color);
+
+  margin: 0 3rem 0 3rem;
+  padding: 0 2rem;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+
+  transition: 0.8s;
+}
+
+.buttonCreate {
+  width: 40%;
+  height: 2.5rem;
+  border-radius: 4px;
+  background-color: var(--main-color);
+  margin: 1rem 0.5rem 0 0.3rem;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+
+  transition: 0.8s;
+}
+
+.buttonDay {
+  width: 40%;
+  height: 2.5rem;
+  border-radius: 4px;
+  background-color: var(--main-color);
+  margin: 1rem 0.25rem 0 0.25rem;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+
+  transition: 0.8s;
+}
+
+.buttonCreateAll:hover,
+.buttonCreate:hover,
+.buttonDay:hover {
+  background-color: var(--complementary);
+}
+
+.buttonCreateAll,
+.buttonCreate{
+  margin-left: 32%;
+}
+
+@media screen and (min-width: 768px) {
+  .navbarButton {
+    width: 13rem;
+    height: 2.5rem;
+    margin: 0 0 0 2%;
+  }
+
+  .navbarButton:hover,
+  .navbarButton:focus {
+    box-shadow: inset 14rem 0 0 0 var(--complementary);
+  }
+}

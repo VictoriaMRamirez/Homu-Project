@@ -1,0 +1,140 @@
+.iconLike {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1;
+
+  color: red;
+}
+
+.iconClose {
+  position: absolute;
+  top: 6rem;
+  left: 90%;
+  cursor: pointer;
+
+  font-size: 1.5rem;
+
+  background-color: transparent;
+  color: var(--complementary);
+}
+
+.iconEyeBlind {
+  height: 22px;
+  width: 24px;
+  right: 10%;
+}
+
+.warningIcon {
+  color: var(--complementary);
+  font-size: 3rem;
+  margin: 0.5rem 0.5rem 0 0;
+}
+
+.detailIcon {
+  float: right;
+
+  font-size: 2rem;
+  cursor: pointer;
+
+  margin-right: 0.8rem;
+
+  color: var(--light);
+
+  transition: 0.3s;
+}
+
+.detailIcon:hover {
+  transform: rotateZ(360deg);
+}
+
+.iconPlusProduct {
+  font-size: 2rem;
+  cursor: pointer;
+
+  margin-right: 1rem;
+
+  color: var(--main-color);
+
+  transition: 0.3s;
+}
+
+.iconPlusProduct:hover {
+  color: var(--complementary);
+}
+
+.iconShare {
+  font-size: 1rem;
+  cursor: pointer;
+
+  margin-left: 0.5rem;
+
+  color: var(--color3);
+}
+
+.iconShareSocialMedia{
+  font-size: 1.5rem;
+  margin-right: 2.5rem;
+}
+
+.iconLikeCardDetail{
+  font-size: 1.5rem;
+
+  color: var(--light);
+  margin-bottom: 0.7rem;
+  margin-left: -0.5rem;
+}
+
+.iconArrowBack {
+  font-size: 2rem;
+  text-decoration: "none" !important;
+
+  color: var(--light);
+}
+
+.iconArrowBack:hover {
+  color: var(--complementary);
+}
+
+.iconFooter,
+.iconFooter:hover {
+  font-size: 1.5rem;
+  color: var(--color3);
+  text-decoration: none;
+  margin: 0.8rem;
+}
+
+.iconCopy {
+  margin-bottom: -0.11rem;
+}
+
+.iconConfused {
+  font-size: 12rem;
+  color: var(--complementary);
+  margin-bottom: 3rem;
+  transition: 0.6s ease-out;
+
+  cursor: pointer;
+}
+
+.iconConfused:hover {
+  transform: rotateZ(360deg);
+}
+
+@media screen and (min-width: 768px) {
+  .iconClose {
+    left: 95%;
+  }
+
+  .iconFooter,
+  .iconFooter:hover {
+    color: var(--light);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .iconClose {
+    top: 6rem;
+    left: 95%;
+  }
+}

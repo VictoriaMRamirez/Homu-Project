@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "air_conditioning": "Si",
+    "wi_fi": "Si",
+    "heating": "Si",
+    "parking": "Si",
+    "gym": "Si"
+  },
+  {
+    "id": 2,
+    "air_conditioning": "No",
+    "wi_fi": "Si",
+    "heating": "No",
+    "parking": "Si",
+    "gym": "Si"
+  },
+  {
+    "id": 3,
+    "air_conditioning": "Si",
+    "wi_fi": "Si",
+    "heating": "Si",
+    "parking": "Si",
+    "gym": "No"
+  },
+  {
+    "id": 4,
+    "air_conditioning": "No",
+    "wi_fi": "No",
+    "heating": "No",
+    "parking": "No",
+    "gym": "No"
+  }
+]

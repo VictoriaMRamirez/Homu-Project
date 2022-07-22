@@ -1,0 +1,29 @@
+.react-slideshow-container .default-nav {
+  background: rgba(250, 198, 114, 0.8);
+
+  border-radius: 20%;
+}
+
+.default-nav {
+  padding-right: 1px;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+}
+
+@media screen and (min-width: 500px){
+    .each-slide-effect > div {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .each-slide-effect > div {
+        height: 400px;
+    }
+}

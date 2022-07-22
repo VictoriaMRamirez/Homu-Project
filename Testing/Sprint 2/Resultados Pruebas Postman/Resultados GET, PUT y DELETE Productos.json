@@ -1,0 +1,266 @@
+{
+	"id": "656e5406-86ae-4bba-8b5f-a3955f96db4d",
+	"name": "Proyecto Integrador - Equipo 6",
+	"timestamp": "2022-06-09T04:27:38.840Z",
+	"collection_id": "20469196-75a58b7b-a6f5-48b6-84f1-adf242ce46d6",
+	"folder_id": "20469196-c5ef6eda-698b-404a-b70a-2864e72111f7",
+	"environment_id": "20469196-ee14f8b3-767f-4451-9eee-22b289f2e409",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "78487a5a-1a6c-4a5d-ba72-822703a7f6f7",
+			"name": "Productos Agregados (9)",
+			"url": "http://localhost:8080/products/allProducts",
+			"time": 944,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				944
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "78c939c0-d372-48f8-b284-666bbe246ea3",
+			"name": "Editar Producto ID 9",
+			"url": "http://localhost:8080/products/updateProduct",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				151
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e68e806a-fb80-4ab7-a97d-2d1e5f9ef475",
+			"name": "Buscar Producto ID 8",
+			"url": "http://localhost:8080/products/findProduct/8",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a8952415-a7fe-4947-9bbb-d3448dfe580d",
+			"name": "Eliminar Producto ID 9",
+			"url": "http://localhost:8080/products/deleteProduct/9",
+			"time": 152,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				152
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9f05f91a-efc8-4bde-9b01-50acff601053",
+			"name": "Eliminar Producto ID 9 Nuevamente",
+			"url": "http://localhost:8080/products/deleteProduct/9",
+			"time": 109,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "a293b3e1-d9fd-4061-9d71-e064875535db",
+			"name": "Productos Actualizados (8)",
+			"url": "http://localhost:8080/products/allProducts",
+			"time": 196,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				196
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4917d816-43aa-4c3b-b990-f5501b5eebcf",
+			"name": "Filtrar Productos x Ciudades",
+			"url": "http://localhost:8080/products/cities/Buenos%20Aires",
+			"time": 1616,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1616
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1c47a634-87ef-455b-bf56-fd4270ba51a1",
+			"name": "Filtrar Productos x Categorias",
+			"url": "http://localhost:8080/products/categories/Departamentos",
+			"time": 117,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				117
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3384,
+	"collection": {
+		"requests": [
+			{
+				"id": "78487a5a-1a6c-4a5d-ba72-822703a7f6f7",
+				"method": "GET"
+			},
+			{
+				"id": "78c939c0-d372-48f8-b284-666bbe246ea3",
+				"method": "PUT"
+			},
+			{
+				"id": "e68e806a-fb80-4ab7-a97d-2d1e5f9ef475",
+				"method": "GET"
+			},
+			{
+				"id": "a8952415-a7fe-4947-9bbb-d3448dfe580d",
+				"method": "DELETE"
+			},
+			{
+				"id": "9f05f91a-efc8-4bde-9b01-50acff601053",
+				"method": "DELETE"
+			},
+			{
+				"id": "a293b3e1-d9fd-4061-9d71-e064875535db",
+				"method": "GET"
+			},
+			{
+				"id": "4917d816-43aa-4c3b-b990-f5501b5eebcf",
+				"method": "GET"
+			},
+			{
+				"id": "1c47a634-87ef-455b-bf56-fd4270ba51a1",
+				"method": "GET"
+			}
+		]
+	}
+}

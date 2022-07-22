@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Departamentos",
+    "description": "1287 departamentos",
+    "url": "https://bucket-pig6.s3.us-east-2.amazonaws.com/CategoriesImg/Departamentos.webp"
+  },
+  {
+    "id": 2,
+    "title": "Hostel",
+    "description": "2365 hostels",
+    "url": "https://bucket-pig6.s3.us-east-2.amazonaws.com/CategoriesImg/Hostels.webp"
+  },
+  {
+    "id": 3,
+    "title": "Hotel",
+    "description": "1538 hoteles",
+    "url": "https://bucket-pig6.s3.us-east-2.amazonaws.com/CategoriesImg/Hoteles.webp"
+  },
+  {
+    "id": 4,
+    "title": "Bed and Breakfast",
+    "description": "895 bed & breakfast",
+    "url": "https://bucket-pig6.s3.us-east-2.amazonaws.com/CategoriesImg/Bed+and+Breaskfast.webp"
+  },
+  {
+    "id": 5,
+    "title": "Resort",
+    "description": "1234 resorts",
+    "url": "http://unsplash.com"
+  }
+]

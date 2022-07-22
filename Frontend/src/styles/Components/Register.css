@@ -1,0 +1,123 @@
+.formRegisterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color5);
+
+  padding: 8rem 0 6rem 0;
+}
+
+.titleFormRegister {
+  color: var(--complementary);
+  align-items: center;
+
+  padding-bottom: 2rem;
+}
+
+.formContainerRegister {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContainerRegister fieldset {
+  border: none;
+}
+
+.validationError {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0.2rem 0 1rem 0.2rem;
+  color: rgb(184, 19, 19);
+}
+
+.passwordSectionRegister input {
+  margin: 1rem 0 -1.5rem 0;
+}
+
+.buttonFormRegister {
+  background-color: transparent;
+  position: relative;
+  top: -0.5rem;
+  left: 88%;
+}
+
+.spanAccountColorRegister {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+
+  color: var(--complementary);
+  margin-left: 0.5rem;
+}
+
+.buttonSubmitRegister {
+  height: 40px;
+  width: 300px;
+
+  border-radius: 4px;
+  background-color: var(--complementary);
+  color: var(--light);
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+
+  cursor: pointer;
+
+  margin-top: 2rem;
+}
+
+.createAccountContainer {
+  display: flex;
+  align-items: center;
+
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.alert-body{
+  margin-left: 0.2rem;
+  color: rgb(184, 19, 19);
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionFormContainerRegister {
+    display: flex;
+  }
+
+  .sectionFormContainerRegister section {
+    margin: 0.5rem 0 -0.5rem 0.5rem;
+  }
+
+  .sectionFormContainerRegister input {
+    width: 218px;
+
+    border: 1px solid var(--color4);
+    transition: 0.4s;
+
+    font-size: 0.85rem;
+  }
+
+  .sectionFlexContaineRegister {
+    margin-left: 0.5rem;
+  }
+
+  .sectionFlexContaineRegister section{
+    margin: 0.3rem 0 0 0;
+  }
+
+  .buttonFormRegister {
+    left: 90%;
+  }
+
+  .buttonCreateAccount {
+    margin-left: 5rem;
+  }
+
+  .alert-body{
+    margin-left: 4.8rem;
+  }
+}

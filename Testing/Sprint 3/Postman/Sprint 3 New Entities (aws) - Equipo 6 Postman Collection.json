@@ -1,0 +1,753 @@
+{
+	"info": {
+		"_postman_id": "9a8b05f2-7537-4981-b924-7f7524589d1c",
+		"name": "Sprint 3 (aws)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20469196"
+	},
+	"item": [
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Añadir Usuario 1 (ADMIN)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201 - Created\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Admin\",\r\n    \"surname\": \"Admin\",\r\n    \"username\": \"Admin\",\r\n    \"email\": \"admin@gmail.com\",\r\n    \"password\": \"123456789\",\r\n    \"city\": \"Rosario\",\r\n    \"roles\": {\r\n        \"id\": 1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://3.133.114.51:8086/users/register",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"users",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Añadir Usuario 2 (USER)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201 - Created\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"User\",\r\n    \"surname\": \"User\",\r\n    \"username\": \"User\",\r\n    \"email\": \"user@gmail.com\",\r\n    \"password\": \"987654321\",\r\n    \"city\": \"Buenos Aires\",\r\n    \"roles\": {\r\n        \"id\": 2\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://3.133.114.51:8086/users/register",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"users",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Añadir Usuario 3 (USER)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201 - Created\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Prueba\",\r\n    \"surname\": \"Prueba\",\r\n    \"username\": \"Prueba\",\r\n    \"email\": \"prueba@gmail.com\",\r\n    \"password\": \"147852369\",\r\n    \"city\": \"Villa Insuperable\",\r\n    \"roles\": {\r\n        \"id\": 2\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://3.133.114.51:8086/users/register",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"users",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Usuarios (ADMIN)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200 - Ok\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJVc2VyIiwiZXhwIjoxNjU1ODc5ODYzLCJpYXQiOjE2NTU4NzkyNjN9.4iykbWCHjldJQm8oMJg8YSU9-dvhCqm4uOYT9viNMFY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://3.133.114.51:8086/users/allUsers",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"users",
+								"allUsers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Usuario ID 3 (ADMIN)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200 - OK\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 3,\r\n    \"name\": \"Prueba\",\r\n    \"surname\": \"Prueba\",\r\n    \"username\": \"Prueba\",\r\n    \"email\": \"prueba@gmail.com\",\r\n    \"password\": \"147852369\",\r\n    \"city\": \"Villa Insuperable\",\r\n    \"roles\": {\r\n        \"id\": 2\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://3.133.114.51:8086/users/updateUser",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"users",
+								"updateUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Reserva ID 2 (ADMIN)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200 - Ok\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://3.133.114.51:8086/bookings/deleteBooking/2",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"bookings",
+								"deleteBooking",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Reservas",
+			"item": [
+				{
+					"name": "Añadir Reserva 1 (ADMIN y USER)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201 - Ok\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"start_time\": \"10:00:00\",\r\n    \"start_date\": \"2022-06-23 10:00:00\",\r\n    \"finish_date\": \"2022-06-25 10:00:00\",\r\n    \"products\": {\r\n        \"id\": 1\r\n    },\r\n    \"users\": {\r\n        \"id\": 1\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://3.133.114.51:8086/bookings/addBooking",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"bookings",
+								"addBooking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Añadir Reserva 2 (ADMIN y USER)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201 - Ok\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJVc2VyIiwiZXhwIjoxNjU1OTk3OTUxLCJpYXQiOjE2NTU5OTczNTF9.5hA14fWfMmu84agtjpZQh4eN8bB5b40a2Oti-hyjo4I",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"start_time\": \"16:00:00\",\r\n    \"start_date\": \"2022-06-23 16:00:00\",\r\n    \"finish_date\": \"2022-06-25 16:00:00\",\r\n    \"products\": {\r\n        \"id\": 2\r\n    },\r\n    \"users\": {\r\n        \"id\": 2\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://3.133.114.51:8086/bookings/addBooking",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"bookings",
+								"addBooking"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Reservas (ADMIN y USER)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200 - Ok\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://3.133.114.51:8086/bookings/allBookings",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"bookings",
+								"allBookings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Usuario ID 3 (ADMIN)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200 - Ok\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://3.133.114.51:8086/users/deleteUser/3",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"users",
+								"deleteUser",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Reserva ID 2 (ADMIN)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200 - Ok\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"start_time\": \"14:00:00\",\r\n    \"start_date\": \"2022-06-22 14:00:00\",\r\n    \"finish_date\": \"2022-06-24 14:00:00\",\r\n    \"products\": {\r\n        \"id\": 2\r\n    },\r\n    \"users\": {\r\n        \"id\": 2\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://3.133.114.51:8086/bookings/updateBooking",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"bookings",
+								"updateBooking"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Autenticacion",
+			"item": [
+				{
+					"name": "Autenticacion (ADMIN)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200 - Ok\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"Admin\",\r\n    \"password\": \"123456789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://3.133.114.51:8086/authenticate",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"authenticate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Autenticacion (USER)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200 - Ok\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"User\",\r\n    \"password\": \"987654321\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://3.133.114.51:8086/authenticate",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"authenticate"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Filtros",
+			"item": [
+				{
+					"name": "Reserva por Producto (ADMIN y USER)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJVc2VyIiwiZXhwIjoxNjU1ODc5ODYzLCJpYXQiOjE2NTU4NzkyNjN9.4iykbWCHjldJQm8oMJg8YSU9-dvhCqm4uOYT9viNMFY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://3.133.114.51:8086/bookings/findBookingByProduct/2",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"bookings",
+								"findBookingByProduct",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Productos por Ciudades",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://3.133.114.51:8086/products/cities/Buenos Aires",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"products",
+								"cities",
+								"Buenos Aires"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Productos por Categorías",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://3.133.114.51:8086/products/categories/Departamentos",
+							"protocol": "http",
+							"host": [
+								"3",
+								"133",
+								"114",
+								"51"
+							],
+							"port": "8086",
+							"path": [
+								"products",
+								"categories",
+								"Departamentos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,173 @@
+{
+	"id": "9ab66594-e175-4160-ab4e-4904051d2cc4",
+	"name": "Proyecto Integrador - Equipo 6",
+	"timestamp": "2022-06-09T04:25:03.122Z",
+	"collection_id": "20469196-75a58b7b-a6f5-48b6-84f1-adf242ce46d6",
+	"folder_id": "20469196-ca9649d4-97f6-4b60-992c-7b65a7734908",
+	"environment_id": "18114274-3261d9da-f456-47a9-b797-13345095175d",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "35f83be6-606b-4f7b-a473-53c115fd73d2",
+			"name": "Categorias Agregadas (5)",
+			"url": "http://localhost:8080/categories/allCategories",
+			"time": 1259,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1259
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6dcbe2ce-4c07-4436-a3ce-5a788c33b0b8",
+			"name": "Editar Categoria ID 5",
+			"url": "http://localhost:8080/categories/updateCategory",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				328
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "37b73021-483c-4d02-b988-c38ffcc24630",
+			"name": "Eliminar Categoria ID 5",
+			"url": "http://localhost:8080/categories/deleteCategory/5",
+			"time": 198,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				198
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c23953da-5e14-463b-b207-1dc0e27ab7ba",
+			"name": "Eliminar Categoria ID 5 Nuevamente",
+			"url": "http://localhost:8080/categories/deleteCategory/5",
+			"time": 270,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				270
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "6218d02f-44d6-44e8-a91d-1b4d32f9f15e",
+			"name": "Categorias Actualizadas (4)",
+			"url": "http://localhost:8080/categories/allCategories",
+			"time": 78,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				78
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2133,
+	"collection": {
+		"requests": [
+			{
+				"id": "35f83be6-606b-4f7b-a473-53c115fd73d2",
+				"method": "GET"
+			},
+			{
+				"id": "6dcbe2ce-4c07-4436-a3ce-5a788c33b0b8",
+				"method": "PUT"
+			},
+			{
+				"id": "37b73021-483c-4d02-b988-c38ffcc24630",
+				"method": "DELETE"
+			},
+			{
+				"id": "c23953da-5e14-463b-b207-1dc0e27ab7ba",
+				"method": "DELETE"
+			},
+			{
+				"id": "6218d02f-44d6-44e8-a91d-1b4d32f9f15e",
+				"method": "GET"
+			}
+		]
+	}
+}

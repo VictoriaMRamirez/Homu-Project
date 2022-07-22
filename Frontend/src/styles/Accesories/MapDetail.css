@@ -1,0 +1,56 @@
+.mapDetailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Map {
+  width: 90%;
+  padding: 20px;
+
+  margin-bottom: 2rem;
+
+  border-radius: 4px;
+  box-shadow: 0.1em 1em 1em rgb(0 0 0 / 25%);
+}
+
+.hrMapDetail {
+  clear: both;
+  display: block;
+  width: 110%;
+  background-color: var(--complementary);
+  height: 0.5px;
+
+  margin: 0.8rem 0 0 0;
+}
+
+.mapDetailTitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+
+  color: var(--color3);
+
+  padding: 1rem 1rem 0rem 1.1rem;
+
+  align-self: flex-start;
+}
+
+.mapDetailIcon {
+  color: var(--complementary);
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+  text-align: center;
+}
+
+.mapDetailCity {
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 28px;
+
+  color: var(--color3);
+
+  padding: 0rem 0 0.5rem 1.5rem;
+
+  align-self: flex-start;
+}

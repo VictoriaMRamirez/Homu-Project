@@ -1,0 +1,276 @@
+.formContainerProductGenerator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--color5);
+  padding-bottom: 6rem;
+}
+
+.formContainerProductGenerator h2 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+
+  padding: 1rem 0rem 0rem 1.5rem;
+}
+
+.subHeader {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: var(--color3);
+  color: var(--light);
+  padding: 5rem 1rem 1rem 1rem;
+}
+
+.formCreateProduct,
+.formCreateImages {
+  width: 100%;
+  background-color: var(--color5);
+
+  padding: 0rem 1.5rem 1rem 1.5rem;
+}
+
+.fieldsetCreateProduct,
+.fieldsetCreateImage {
+  background-color: var(--light);
+
+  padding: 1rem 0 1rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.fieldsetCreateProduct{
+  padding: 1rem 0 1rem 1.5rem;
+}
+
+
+.fieldsetCreateProduct select {
+  width: 95%;
+  height: 40px;
+  padding: 0.7rem;
+  border: 1px solid var(--color4);
+  font-size: 0.85rem;
+}
+
+.fieldsetCreateProduct label {
+  text-align: start;
+}
+
+.fieldsetCreateProduct input,
+.fieldsetCreateImage input {
+  width: 95%;
+  margin: 0.8rem 0;
+}
+
+.descriptionInput {
+  text-align: start;
+  padding: 1rem 0.5rem 5rem 0.5rem;
+}
+
+.featureCreateSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featureCreateInfoDiv {
+  width: 100%;
+}
+
+.featureCreateIcon {
+  padding-top: 1rem;
+}
+
+.selectCreateProduct {
+  margin: 0.5rem 1rem 1rem 0rem;
+}
+
+.formCreateImages {
+  width: 100%;
+}
+
+.fieldsetCreateImage input {
+  width: 85%;
+}
+
+.fieldsetCreateImage div {
+  margin: 0.2rem 0 0 0.5rem;
+}
+
+.checked-item {
+  text-decoration: line-through;
+}
+
+.imagesCreateContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 17rem 0;
+  background-color: var(--color5);
+}
+
+.alertImages {
+  margin: 1.5rem 0 0rem 1.5rem;
+}
+
+.alertImages h3 {
+  display: none;
+}
+
+.alertImages a {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .infoCreateProdContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .infoCreateProdContainer div {
+    width: 50%;
+  }
+
+  .categoryAndCityContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .categoryAndCityContainer section {
+    width: 50%;
+    padding: 0 0.5rem;
+  }
+
+  .categoryAndCityContainer fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    height: 15rem;
+  }
+
+  .fieldsetCreateImage input {
+    width: 95%;
+  }
+
+  .alertImages {
+    margin: 1.5rem 0 0rem 14rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .createRulesSafetiesCancellContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .createRulesSafetiesCancellContainer section {
+    width: 32.5%;
+  }
+
+  .createRulesSafetiesCancellContainer fieldset {
+    height: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-left: 1rem;
+  }
+
+  .alertImages {
+    margin: 1.5rem 0 0rem 18rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .formContainerProductGenerator {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formCreateProduct,
+  .formCreateImages {
+    width: 90%;
+  }
+
+  .formContainerProductGenerator h2 {
+    padding: 1rem 0rem 0rem 6.5rem;
+  }
+
+  .categoryAndCityContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .categoryAndCityContainer section {
+    width: 48%;
+  }
+
+  .categoryAndCityContainer fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15rem;
+  }
+
+  .categoryAndCityContainer label {
+    margin-left: 3.5rem;
+  }
+
+  .categoryAndCityContainer select {
+    width: 80%;
+  }
+
+  .categoryAndCityContainer input {
+    align-self: center;
+    margin-right: 1rem;
+    width: 80%;
+  }
+
+  .featureCheckboxContainer {
+    width: 63%;
+  }
+
+  .featureInfoCreateContainer {
+    width: 33%;
+  }
+
+  .featureInfoCreateContainer fieldset {
+    display: flex;
+    justify-content: space-around;
+    height: 28.3rem;
+  }
+
+  .createRulesSafetiesCancellContainer {
+    padding-bottom: 1rem;
+  }
+  .createRulesSafetiesCancellContainer section {
+    width: 30.5%;
+  }
+
+  .formCreateImages {
+    width: 90%;
+    align-self: center;
+  }
+
+  .alertImages {
+    margin: 1.5rem 0 0rem 27rem;
+  }
+
+}

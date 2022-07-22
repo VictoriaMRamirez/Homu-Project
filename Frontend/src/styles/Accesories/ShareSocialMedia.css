@@ -1,0 +1,13 @@
+.shareSocialMediaContainer {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.shareSocialMediaContainer div {
+  padding: 0 1rem 0.5rem 0;
+}
+
+.menuItemSocialMedia {
+  min-width: none;
+}

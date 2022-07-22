@@ -1,0 +1,64 @@
+.bookingsContainer{
+    padding-top: 5.5rem;
+    background-color: var(--color3);
+}
+
+.bookingTitle {
+    color: var(--light);
+    margin-bottom: 1rem;
+}
+
+.emptyBookingList{
+    width: 100%;
+    height: 35rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color5);
+}
+
+.bookingEmptyMessage{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.textButton{
+    text-decoration: none;
+    color: var(--color3);
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .myBooking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+@media screen and (min-width: 1024px){
+    .bookingsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    .bookingTitle{
+        padding-top: 6rem;
+    }
+    .myBooking{
+        flex-direction: row;
+        padding-bottom: 20rem;
+    }
+
+    .myCards{
+        width: 75%;
+        padding-top: 2rem;
+    }
+}

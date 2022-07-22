@@ -1,0 +1,92 @@
+:root {
+  --rs-calendar-range-bg: rgba(239, 208, 83, 0.5) !important;
+}
+
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value,
+.rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value {
+  color: var(--main-color) !important;
+}
+
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn-active,
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:hover,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover {
+  border-color: var(--complementary) !important;
+}
+
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus,
+.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover {
+  border-color: var(--complementary) !important;
+}
+
+.rs-picker.rs-picker-focused,
+.rs-picker:not(.rs-picker-disabled):hover {
+  border-color: var(--complementary) !important;
+}
+
+.rs-calendar-table-cell-is-today .rs-calendar-table-cell-content {
+  box-shadow: inset 0 0 0 1px var(--complementary) !important;
+}
+
+.rs-btn-link {
+  color: var(--complementary) !important;
+}
+
+.rs-btn-primary.rs-btn-disabled,
+.rs-btn-primary:disabled {
+  color: var(--color4) !important;
+  background-color: var(--complementary) !important;
+}
+
+.rs-calendar-table-cell-content:hover {
+  background-color: var(--complementary) !important;
+}
+
+.rs-btn-primary {
+  background-color: var(--complementary) !important;
+}
+
+.rs-calendar-table-cell-selected .rs-calendar-table-cell-content {
+  background-color: var(--complementary) !important;
+}
+
+.rs-calendar-table-cell-is-today .rs-calendar-table-cell-content {
+  box-shadow: inset 0 0 0 1px var(--complementary) !important;
+}
+
+.rs-picker-menu
+  .rs-calendar
+  .rs-calendar-table-cell:hover
+  .rs-calendar-table-cell-content {
+  color: var(--light) !important;
+}
+
+.rs-calendar-table-cell-selected .rs-calendar-table-cell-content {
+  background-color: var(--complementary) !important;
+}
+
+.rs-picker-menu
+  .rs-calendar
+  .rs-calendar-table-cell:hover
+  .rs-calendar-table-cell-content {
+  color: var(--light) !important;
+}
+
+@media screen and (min-width: 768px) {
+  .rs-picker-toggle,
+  .rs-btn rs-btn-default {
+    width: 100% !important;
+    margin-left: 2%;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .rs-picker-toggle,
+  .rs-btn rs-btn-default {
+    width: 21rem !important;
+    margin-right: 3rem;
+  }
+}

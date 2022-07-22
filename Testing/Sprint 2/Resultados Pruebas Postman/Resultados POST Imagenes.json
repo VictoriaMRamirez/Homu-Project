@@ -1,0 +1,1289 @@
+{
+	"id": "1d39a7ff-4dca-41a9-8b9f-200b697c5c3c",
+	"name": "Proyecto Integrador - Equipo 6",
+	"timestamp": "2022-06-09T04:28:21.298Z",
+	"collection_id": "20469196-75a58b7b-a6f5-48b6-84f1-adf242ce46d6",
+	"folder_id": "20469196-58d9b2b0-2001-4a0a-a3ac-be6950a09597",
+	"environment_id": "20469196-48da3e78-3886-4477-9231-4e2a78acb977",
+	"totalPass": 41,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0b856010-1815-43ac-abb4-40107d21846b",
+			"name": "Agregar Imagen 1",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 233,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				233
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "98801557-a12e-483d-b1fa-961b69f31774",
+			"name": "Agregar Imagen 2",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5cbb078b-092b-47f8-b3bf-517e19314a56",
+			"name": "Agregar Imagen 3",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				141
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "dfd1beae-1e2d-4824-9cf3-108681d2e779",
+			"name": "Agregar Imagen 4",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 216,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				216
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0d6eaaf9-8880-457c-9964-1616c2510280",
+			"name": "Agregar Imagen 5",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 561,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				561
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9670e8ec-9c62-4097-9dcc-b6ba4669db3d",
+			"name": "Agregar Imagen 6",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 106,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				106
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "604cd7b6-9d8a-41c2-9e6a-f7fae7ae4ac7",
+			"name": "Agregar Imagen 7",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 100,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				100
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0879c785-fd35-451d-8563-7c5f76206a03",
+			"name": "Agregar Imagen 8",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 94,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				94
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7ee78313-0e68-4086-a8b5-4c3f82a84a36",
+			"name": "Agregar Imagen 9",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				122
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5169c3db-8223-4e40-bd7e-43f250cb5be1",
+			"name": "Agregar Imagen 10",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 183,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				183
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "19a6e4a4-dba9-483f-b04e-ecf122825b44",
+			"name": "Agregar Imagen 11",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3a1dc562-c53e-4cc5-a0c6-962e9ab5dead",
+			"name": "Agregar Imagen 12",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 218,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				218
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2f788e3b-a4be-40b2-ac30-50083ec9592e",
+			"name": "Agregar Imagen 13",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 317,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				317
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d77528a6-4fa0-4be9-ad42-1c0b5c35f7da",
+			"name": "Agregar Imagen 14",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 675,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				675
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "28e4376b-edd2-4cf3-93d2-38b9ae947bf1",
+			"name": "Agregar Imagen 15",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 317,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				317
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d2793851-3df4-42b5-81e4-a49fb752456c",
+			"name": "Agregar Imagen 16",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				123
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "dd894d3b-20fc-4cd8-8021-662e3421e166",
+			"name": "Agregar Imagen 17",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 888,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				888
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "97f472a4-6cf3-42a4-a59a-1a3759111882",
+			"name": "Agregar Imagen 18",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 586,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				586
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6379ae7f-dfc0-4e7a-965a-a73a7daaddac",
+			"name": "Agregar Imagen 19",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 151,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				151
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e55266b4-db74-4032-9b42-17d81e2a4ed3",
+			"name": "Agregar Imagen 20",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 553,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				553
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4be2f2ea-567d-41ce-9f61-39015adb6e3f",
+			"name": "Agregar Imagen 21",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 635,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				635
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "dcfe4647-8e81-4ec2-9737-b7182dbeace7",
+			"name": "Agregar Imagen 22",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 751,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				751
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "54d51bae-dad0-4f90-89cf-19c40b42a525",
+			"name": "Agregar Imagen 23",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				149
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "34112e1c-8df7-499d-96f8-67ac8fb37f04",
+			"name": "Agregar Imagen 24",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 95,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				95
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2974b6db-5931-4053-a381-84b88080bbb5",
+			"name": "Agregar Imagen 25",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 95,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				95
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4774a0a4-e9d8-4d98-9d8e-8fa5791fcf35",
+			"name": "Agregar Imagen 26",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 198,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				198
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a47b76c0-408b-4bbd-adde-630deb24c4ff",
+			"name": "Agregar Imagen 27",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 230,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				230
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "54bc5494-8821-4f29-8c46-2793758df4e7",
+			"name": "Agregar Imagen 28",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 168,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				168
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "339a91fd-1f14-4ed0-b1cf-3d0b71c40801",
+			"name": "Agregar Imagen 29",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 164,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				164
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d4722b71-f9c0-43db-b036-9d2fa03d00e4",
+			"name": "Agregar Imagen 30",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 51,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				51
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "830602d5-a868-4199-bbc4-3d138b3d1075",
+			"name": "Agregar Imagen 31",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 106,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				106
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d42e7dd4-967b-42b1-9a9f-d448b421885e",
+			"name": "Agregar Imagen 32",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 55,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				55
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5072170a-54e8-43cf-9740-1c4b4846f43e",
+			"name": "Agregar Imagen 33",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 225,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				225
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f39e84b6-345c-4dea-96eb-406b9aa15273",
+			"name": "Agregar Imagen 34",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 227,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				227
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d3268462-40ad-403c-8d3d-68977f975640",
+			"name": "Agregar Imagen 35",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 305,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				305
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "21720852-50bb-4c2e-8673-e80445b77df5",
+			"name": "Agregar Imagen 36",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				143
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "568cfd1b-1fd4-447c-b59f-a6f4d57dc12f",
+			"name": "Agregar Imagen 37",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				122
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7bc2139e-11d5-4333-95bb-1f3f921a8551",
+			"name": "Agregar Imagen 38",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 63,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				63
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6985b91c-a7b8-47ca-bdd1-805d2f6148a1",
+			"name": "Agregar Imagen 39",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				102
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0c7c2205-073a-40c1-b532-1e7594099c8d",
+			"name": "Agregar Imagen 40",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				120
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "27416649-edf4-441c-8ef0-4ebab0399188",
+			"name": "Agregar Imagen 41",
+			"url": "http://localhost:8080/images/addImage",
+			"time": 117,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				117
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 9968,
+	"collection": {
+		"requests": [
+			{
+				"id": "0b856010-1815-43ac-abb4-40107d21846b",
+				"method": "POST"
+			},
+			{
+				"id": "98801557-a12e-483d-b1fa-961b69f31774",
+				"method": "POST"
+			},
+			{
+				"id": "5cbb078b-092b-47f8-b3bf-517e19314a56",
+				"method": "POST"
+			},
+			{
+				"id": "dfd1beae-1e2d-4824-9cf3-108681d2e779",
+				"method": "POST"
+			},
+			{
+				"id": "0d6eaaf9-8880-457c-9964-1616c2510280",
+				"method": "POST"
+			},
+			{
+				"id": "9670e8ec-9c62-4097-9dcc-b6ba4669db3d",
+				"method": "POST"
+			},
+			{
+				"id": "604cd7b6-9d8a-41c2-9e6a-f7fae7ae4ac7",
+				"method": "POST"
+			},
+			{
+				"id": "0879c785-fd35-451d-8563-7c5f76206a03",
+				"method": "POST"
+			},
+			{
+				"id": "7ee78313-0e68-4086-a8b5-4c3f82a84a36",
+				"method": "POST"
+			},
+			{
+				"id": "5169c3db-8223-4e40-bd7e-43f250cb5be1",
+				"method": "POST"
+			},
+			{
+				"id": "19a6e4a4-dba9-483f-b04e-ecf122825b44",
+				"method": "POST"
+			},
+			{
+				"id": "3a1dc562-c53e-4cc5-a0c6-962e9ab5dead",
+				"method": "POST"
+			},
+			{
+				"id": "2f788e3b-a4be-40b2-ac30-50083ec9592e",
+				"method": "POST"
+			},
+			{
+				"id": "d77528a6-4fa0-4be9-ad42-1c0b5c35f7da",
+				"method": "POST"
+			},
+			{
+				"id": "28e4376b-edd2-4cf3-93d2-38b9ae947bf1",
+				"method": "POST"
+			},
+			{
+				"id": "d2793851-3df4-42b5-81e4-a49fb752456c",
+				"method": "POST"
+			},
+			{
+				"id": "dd894d3b-20fc-4cd8-8021-662e3421e166",
+				"method": "POST"
+			},
+			{
+				"id": "97f472a4-6cf3-42a4-a59a-1a3759111882",
+				"method": "POST"
+			},
+			{
+				"id": "6379ae7f-dfc0-4e7a-965a-a73a7daaddac",
+				"method": "POST"
+			},
+			{
+				"id": "e55266b4-db74-4032-9b42-17d81e2a4ed3",
+				"method": "POST"
+			},
+			{
+				"id": "4be2f2ea-567d-41ce-9f61-39015adb6e3f",
+				"method": "POST"
+			},
+			{
+				"id": "dcfe4647-8e81-4ec2-9737-b7182dbeace7",
+				"method": "POST"
+			},
+			{
+				"id": "54d51bae-dad0-4f90-89cf-19c40b42a525",
+				"method": "POST"
+			},
+			{
+				"id": "34112e1c-8df7-499d-96f8-67ac8fb37f04",
+				"method": "POST"
+			},
+			{
+				"id": "2974b6db-5931-4053-a381-84b88080bbb5",
+				"method": "POST"
+			},
+			{
+				"id": "4774a0a4-e9d8-4d98-9d8e-8fa5791fcf35",
+				"method": "POST"
+			},
+			{
+				"id": "a47b76c0-408b-4bbd-adde-630deb24c4ff",
+				"method": "POST"
+			},
+			{
+				"id": "54bc5494-8821-4f29-8c46-2793758df4e7",
+				"method": "POST"
+			},
+			{
+				"id": "339a91fd-1f14-4ed0-b1cf-3d0b71c40801",
+				"method": "POST"
+			},
+			{
+				"id": "d4722b71-f9c0-43db-b036-9d2fa03d00e4",
+				"method": "POST"
+			},
+			{
+				"id": "830602d5-a868-4199-bbc4-3d138b3d1075",
+				"method": "POST"
+			},
+			{
+				"id": "d42e7dd4-967b-42b1-9a9f-d448b421885e",
+				"method": "POST"
+			},
+			{
+				"id": "5072170a-54e8-43cf-9740-1c4b4846f43e",
+				"method": "POST"
+			},
+			{
+				"id": "f39e84b6-345c-4dea-96eb-406b9aa15273",
+				"method": "POST"
+			},
+			{
+				"id": "d3268462-40ad-403c-8d3d-68977f975640",
+				"method": "POST"
+			},
+			{
+				"id": "21720852-50bb-4c2e-8673-e80445b77df5",
+				"method": "POST"
+			},
+			{
+				"id": "568cfd1b-1fd4-447c-b59f-a6f4d57dc12f",
+				"method": "POST"
+			},
+			{
+				"id": "7bc2139e-11d5-4333-95bb-1f3f921a8551",
+				"method": "POST"
+			},
+			{
+				"id": "6985b91c-a7b8-47ca-bdd1-805d2f6148a1",
+				"method": "POST"
+			},
+			{
+				"id": "0c7c2205-073a-40c1-b532-1e7594099c8d",
+				"method": "POST"
+			},
+			{
+				"id": "27416649-edf4-441c-8ef0-4ebab0399188",
+				"method": "POST"
+			}
+		]
+	}
+}

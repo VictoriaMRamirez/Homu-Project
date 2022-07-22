@@ -1,0 +1,99 @@
+.react-calendar__month-view__days__day--weekend {
+  color: var(--color3) !important;
+}
+
+.react-calendar__tile--active {
+  background-color: var(--selected-day-color) !important;
+}
+
+.react-calendar__tile--hasActive {
+  background-color: var(--selected-day-color) !important;
+}
+
+.react-calendar__navigation__arrow,
+.react-calendar__navigation__next2-button {
+  color: var(--color3) !important;
+}
+
+.react-calendar {
+  border-radius: 4px !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) !important;
+  border: none !important;
+  padding: 1rem;
+
+  width: 90%;
+  margin-left: 5%;
+}
+
+.reservationCalendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservationCalendarOne {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservationCalendarButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservationCalendarComponentDouble {
+  display: none;
+}
+
+.reservationCardTitleForm,
+.reservationCardTitle,
+.reservationTitleCalendarForm,
+.reservationTitleCalendar {
+  align-self: flex-start;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+
+  color: var(--color3);
+}
+
+.reservationCardTitleForm,
+.reservationCardTitle {
+  margin-bottom: 1rem;
+}
+
+.reservationTitleCalendar {
+  margin-bottom: 1rem;
+}
+
+.reservationCheckHourTitle {
+  align-self: flex-start;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+
+  color: var(--color3);
+}
+
+@media screen and (min-width: 768px) {
+  .reservationCalendarOne {
+    display: none;
+  }
+
+  .reservationCalendarComponentDouble {
+    display: block;
+  }
+
+  .reservationCheckHourTitle,
+  .reservationCardTitle,
+  .reservationCardTitleForm,
+  .reservationTitleCalendarForm,
+  .reservationTitleCalendar {
+    margin-left: 2.5rem;
+  }
+
+}
+

@@ -1,0 +1,173 @@
+{
+	"id": "164a8abc-1cae-4442-b638-aec4e10bd362",
+	"name": "Proyecto Integrador - Equipo 6",
+	"timestamp": "2022-06-09T04:26:40.101Z",
+	"collection_id": "20469196-75a58b7b-a6f5-48b6-84f1-adf242ce46d6",
+	"folder_id": "20469196-a31f3114-6df2-4917-b0f8-7dc9117f3272",
+	"environment_id": "20469196-1560bd85-9d7b-4c1e-8088-8df9dd7bf7fe",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "76f1d563-58f2-4993-946b-701f18fd4cc2",
+			"name": "Caracteristicas Agregadas (4)",
+			"url": "http://localhost:8080/features/allFeatures",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				80
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9c3a5897-c302-4bdf-9cff-6f1866ed67e5",
+			"name": "Editar Caracteristica ID 4",
+			"url": "http://localhost:8080/features/updateFeature",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7024705c-3af3-42f7-8470-afff9224490b",
+			"name": "Eliminar Caracteristica ID 4",
+			"url": "http://localhost:8080/features/deleteFeature/4",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "484fca21-74c2-4d79-839f-9076e1029b75",
+			"name": "Eliminar Caracteristica ID 4 Nuevamente",
+			"url": "http://localhost:8080/features/deleteFeature/4",
+			"time": 127,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "96a40dce-0bed-4945-b928-ed95a0047723",
+			"name": "Caracteristicas Actualizadas (3)",
+			"url": "http://localhost:8080/features/allFeatures",
+			"time": 91,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				91
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 452,
+	"collection": {
+		"requests": [
+			{
+				"id": "76f1d563-58f2-4993-946b-701f18fd4cc2",
+				"method": "GET"
+			},
+			{
+				"id": "9c3a5897-c302-4bdf-9cff-6f1866ed67e5",
+				"method": "PUT"
+			},
+			{
+				"id": "7024705c-3af3-42f7-8470-afff9224490b",
+				"method": "DELETE"
+			},
+			{
+				"id": "484fca21-74c2-4d79-839f-9076e1029b75",
+				"method": "DELETE"
+			},
+			{
+				"id": "96a40dce-0bed-4945-b928-ed95a0047723",
+				"method": "GET"
+			}
+		]
+	}
+}

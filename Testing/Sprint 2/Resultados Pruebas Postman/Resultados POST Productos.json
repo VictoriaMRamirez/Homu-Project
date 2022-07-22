@@ -1,0 +1,297 @@
+{
+	"id": "7af40836-716e-496c-93b0-0a3e7c955100",
+	"name": "Proyecto Integrador - Equipo 6",
+	"timestamp": "2022-06-09T04:27:13.182Z",
+	"collection_id": "20469196-75a58b7b-a6f5-48b6-84f1-adf242ce46d6",
+	"folder_id": "20469196-924ada42-d78f-46cc-9a32-847edb05e49c",
+	"environment_id": "20469196-ee14f8b3-767f-4451-9eee-22b289f2e409",
+	"totalPass": 9,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c3c3556b-cdd7-4bb9-b3a1-7ccb1d0531cd",
+			"name": "Agregar Producto 1",
+			"url": "http://localhost:8080/products/addProduct",
+			"time": 451,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				451
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8cdf5b8e-ea2b-473a-95de-f6389fbefa17",
+			"name": "Agregar Producto 2",
+			"url": "http://localhost:8080/products/addProduct",
+			"time": 195,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				195
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "088ebc0a-533b-427a-8fdd-3796a682a976",
+			"name": "Agregar Producto 3",
+			"url": "http://localhost:8080/products/addProduct",
+			"time": 618,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				618
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9b44631f-abbe-4f77-a396-fd57f608f953",
+			"name": "Agregar Producto 4",
+			"url": "http://localhost:8080/products/addProduct",
+			"time": 160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				160
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "53cb155f-8f8a-4a24-b094-6e809a7edb19",
+			"name": "Agregar Producto 5",
+			"url": "http://localhost:8080/products/addProduct",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				155
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "610da445-5ece-4979-9262-7160176a669e",
+			"name": "Agregar Producto 6",
+			"url": "http://localhost:8080/products/addProduct",
+			"time": 136,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				136
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ecc26109-337a-4f22-aff6-061ae6dd9fb6",
+			"name": "Agregar Producto 7",
+			"url": "http://localhost:8080/products/addProduct",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				155
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "978f9846-eb2f-4f66-925a-1ca810220288",
+			"name": "Agregar Producto 8",
+			"url": "http://localhost:8080/products/addProduct",
+			"time": 255,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				255
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7ff2864b-c8ed-4ff5-bf0a-731d9ea8ea51",
+			"name": "Agregar Producto 9",
+			"url": "http://localhost:8080/products/addProduct",
+			"time": 276,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				276
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2401,
+	"collection": {
+		"requests": [
+			{
+				"id": "c3c3556b-cdd7-4bb9-b3a1-7ccb1d0531cd",
+				"method": "POST"
+			},
+			{
+				"id": "8cdf5b8e-ea2b-473a-95de-f6389fbefa17",
+				"method": "POST"
+			},
+			{
+				"id": "088ebc0a-533b-427a-8fdd-3796a682a976",
+				"method": "POST"
+			},
+			{
+				"id": "9b44631f-abbe-4f77-a396-fd57f608f953",
+				"method": "POST"
+			},
+			{
+				"id": "53cb155f-8f8a-4a24-b094-6e809a7edb19",
+				"method": "POST"
+			},
+			{
+				"id": "610da445-5ece-4979-9262-7160176a669e",
+				"method": "POST"
+			},
+			{
+				"id": "ecc26109-337a-4f22-aff6-061ae6dd9fb6",
+				"method": "POST"
+			},
+			{
+				"id": "978f9846-eb2f-4f66-925a-1ca810220288",
+				"method": "POST"
+			},
+			{
+				"id": "7ff2864b-c8ed-4ff5-bf0a-731d9ea8ea51",
+				"method": "POST"
+			}
+		]
+	}
+}

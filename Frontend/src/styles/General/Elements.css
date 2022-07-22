@@ -1,0 +1,52 @@
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+label,
+h5 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 14px;
+
+  margin: 0 0rem 0.3rem 0.1rem;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--color3);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  text-align: center;
+}
+
+a:active,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.hidden{
+  display: none;
+}

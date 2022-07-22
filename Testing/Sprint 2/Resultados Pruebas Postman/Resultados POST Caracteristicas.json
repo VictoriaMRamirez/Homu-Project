@@ -1,0 +1,60 @@
+{
+	"id": "c7a98608-2eff-4d03-ae6b-2a2ce4a13688",
+	"name": "Proyecto Integrador - Equipo 6",
+	"timestamp": "2022-06-09T04:26:24.094Z",
+	"collection_id": "20469196-75a58b7b-a6f5-48b6-84f1-adf242ce46d6",
+	"folder_id": "20469196-b6d4731a-e2ac-46bd-90f3-f3911ebede37",
+	"environment_id": "20469196-1560bd85-9d7b-4c1e-8088-8df9dd7bf7fe",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4a46a5cc-e96b-45e9-8728-77ad28fd7336",
+			"name": "Agregar Caracteristicas (4)",
+			"time": 121,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				168,
+				204,
+				118,
+				121
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 611,
+	"collection": {
+		"requests": [
+			{
+				"id": "4a46a5cc-e96b-45e9-8728-77ad28fd7336",
+				"method": "POST"
+			}
+		]
+	}
+}

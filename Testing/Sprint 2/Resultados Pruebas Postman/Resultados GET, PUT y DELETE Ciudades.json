@@ -1,0 +1,173 @@
+{
+	"id": "28c71981-f5a9-4afc-9d2f-823cff7cf764",
+	"name": "Proyecto Integrador - Equipo 6",
+	"timestamp": "2022-06-09T04:25:59.240Z",
+	"collection_id": "20469196-75a58b7b-a6f5-48b6-84f1-adf242ce46d6",
+	"folder_id": "20469196-5da2f6c7-fd95-4c25-83ff-9e310f4a76bc",
+	"environment_id": "20469196-fda1ab16-6c80-4bbb-a610-5d6fd4943778",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ccb542cb-7bd2-40d7-aae1-e7d3093c3e27",
+			"name": "Ciudades Agregadas (5)",
+			"url": "http://localhost:8080/cities/allCities",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				84
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e4f67766-dcb6-439b-8763-4ee50f0fae96",
+			"name": "Editar Ciudad ID 5",
+			"url": "http://localhost:8080/cities/updateCity",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "21c9e3cc-f997-48ec-b84c-eb068d0f552b",
+			"name": "Eliminar Ciudad ID 5",
+			"url": "http://localhost:8080/cities/deleteCity/5",
+			"time": 415,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				415
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "805cf98d-f711-4137-ba31-bf11ec1ea521",
+			"name": "Eliminar Ciudad ID 5 Nuevamente",
+			"url": "http://localhost:8080/cities/deleteCity/5",
+			"time": 1085,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1085
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "b1ae2c35-f7e4-43ed-b813-90c1b0138ae4",
+			"name": "Ciudades Actualizadas (4)",
+			"url": "http://localhost:8080/cities/allCities",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				77
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1732,
+	"collection": {
+		"requests": [
+			{
+				"id": "ccb542cb-7bd2-40d7-aae1-e7d3093c3e27",
+				"method": "GET"
+			},
+			{
+				"id": "e4f67766-dcb6-439b-8763-4ee50f0fae96",
+				"method": "PUT"
+			},
+			{
+				"id": "21c9e3cc-f997-48ec-b84c-eb068d0f552b",
+				"method": "DELETE"
+			},
+			{
+				"id": "805cf98d-f711-4137-ba31-bf11ec1ea521",
+				"method": "DELETE"
+			},
+			{
+				"id": "b1ae2c35-f7e4-43ed-b813-90c1b0138ae4",
+				"method": "GET"
+			}
+		]
+	}
+}

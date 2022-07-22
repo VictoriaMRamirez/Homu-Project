@@ -1,0 +1,173 @@
+{
+	"id": "6d141496-8e66-4255-a96b-12c3e88fcd95",
+	"name": "Proyecto Integrador - Equipo 6",
+	"timestamp": "2022-06-09T04:28:42.897Z",
+	"collection_id": "20469196-75a58b7b-a6f5-48b6-84f1-adf242ce46d6",
+	"folder_id": "20469196-676f90d9-0a7a-4bce-b0ef-780446472e42",
+	"environment_id": "20469196-48da3e78-3886-4477-9231-4e2a78acb977",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "12d01036-a4fe-46f4-b4b4-0614883acd48",
+			"name": "Imagenes Agregadas (41)",
+			"url": "http://localhost:8080/images/allImages",
+			"time": 597,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				597
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4b1cec2e-f19d-4286-9f47-27f057eece60",
+			"name": "Editar Imagen ID 41",
+			"url": "http://localhost:8080/images/updateImage",
+			"time": 138,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				138
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "030d158a-94d5-46f6-b3cd-b9fd0a57f730",
+			"name": "Eliminar Imagen ID 41",
+			"url": "http://localhost:8080/images/deleteImage/41",
+			"time": 333,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				333
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f6fd37c7-086b-4863-b917-6e5dcb17287f",
+			"name": "Eliminar Imagen ID 41 Nuevamente",
+			"url": "http://localhost:8080/images/deleteImage/41",
+			"time": 273,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				273
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		},
+		{
+			"id": "6851fb0f-1d43-4c9e-9a32-9bfe24ee4e75",
+			"name": "Imagenes Actualizadas (40)",
+			"url": "http://localhost:8080/images/allImages",
+			"time": 219,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1560,
+	"collection": {
+		"requests": [
+			{
+				"id": "12d01036-a4fe-46f4-b4b4-0614883acd48",
+				"method": "GET"
+			},
+			{
+				"id": "4b1cec2e-f19d-4286-9f47-27f057eece60",
+				"method": "PUT"
+			},
+			{
+				"id": "030d158a-94d5-46f6-b3cd-b9fd0a57f730",
+				"method": "DELETE"
+			},
+			{
+				"id": "f6fd37c7-086b-4863-b917-6e5dcb17287f",
+				"method": "DELETE"
+			},
+			{
+				"id": "6851fb0f-1d43-4c9e-9a32-9bfe24ee4e75",
+				"method": "GET"
+			}
+		]
+	}
+}

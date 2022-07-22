@@ -1,0 +1,64 @@
+{
+	"id": "c08e0d3a-f943-4ca3-9950-14e1745eb562",
+	"name": "Proyecto Integrador - Equipo 6",
+	"timestamp": "2022-06-09T04:25:34.495Z",
+	"collection_id": "20469196-75a58b7b-a6f5-48b6-84f1-adf242ce46d6",
+	"folder_id": "20469196-bb98a90e-7e25-4ca9-9932-0fa159c76a2c",
+	"environment_id": "20469196-fda1ab16-6c80-4bbb-a610-5d6fd4943778",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "87ddac84-c4ef-4928-beaa-f79b1a6350c8",
+			"name": "Agregar Ciudades (5)",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				545,
+				95,
+				239,
+				328,
+				73
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 1280,
+	"collection": {
+		"requests": [
+			{
+				"id": "87ddac84-c4ef-4928-beaa-f79b1a6350c8",
+				"method": "POST"
+			}
+		]
+	}
+}
