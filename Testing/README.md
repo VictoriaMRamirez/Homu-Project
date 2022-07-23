@@ -1,4 +1,4 @@
-# TESTING FOR FINAL PROYECT "HOMU" FROM CERTIFIED TECH DEVELOPER
+# TESTING - FINAL PROYECT "HOMU" FROM CERTIFIED TECH DEVELOPER
 The folder is divided in different sprints to follow along the project's structure.
 
 ## Links:
