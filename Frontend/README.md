@@ -1,4 +1,4 @@
-# FRONTEND FOR FINAL PROYECT "HOMU" FROM CERTIFIED TECH DEVELOPER
+# FRONTEND - FINAL PROYECT "HOMU" FROM CERTIFIED TECH DEVELOPER
 In the project directory, you can run the following scripts:
 
 ## General:
