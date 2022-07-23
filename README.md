@@ -1,0 +1,37 @@
+# Homu Project
+Final Integrated Project for 1st year of Certified Tech Developer.
+
+## Presentation:
+- Link: https://docs.google.com/presentation/d/1c9a8YZlkgrc9nWQrm1x0lPFYsH8PXXIPrjbJpWcYAu0/edit?usp=sharing
+
+![1](https://user-images.githubusercontent.com/87093078/180589990-154d1e59-0671-4e96-921e-1aabd5a5da8d.jpg)
+![2](https://user-images.githubusercontent.com/87093078/180589992-2eb9cd2e-8849-4ac1-948d-f4968fad246d.jpg)
+![3](https://user-images.githubusercontent.com/87093078/180590011-08cccaf3-e650-44e2-b2fd-f97f60a4fa3a.jpg)
+![4](https://user-images.githubusercontent.com/87093078/180590013-c80cfa53-a5fa-4cd6-a22a-59147d5ab9fc.jpg)
+![5](https://user-images.githubusercontent.com/87093078/180590015-2c784584-1dff-4fdf-9874-bce389896d35.jpg)
+![Slides Grupo 6 - HOMU PROYECT (25)](https://user-images.githubusercontent.com/87093078/180590072-1ed1b8bd-de50-441d-b4ad-47c830c24bf4.jpg)
+![Slides Grupo 6 - HOMU PROYECT](https://user-images.githubusercontent.com/87093078/180590026-10e6e9eb-d8db-47c0-921f-0fd23954c19a.jpg)
+![Slides Grupo 6 - HOMU PROYECT (1)](https://user-images.githubusercontent.com/87093078/180590029-abd15f5c-1ca8-4471-b85e-1de3da41b7eb.jpg)
+![Slides Grupo 6 - HOMU PROYECT (3)](https://user-images.githubusercontent.com/87093078/180590102-170e630d-8c1a-4c55-93fe-2b7c839baa81.jpg)
+![Slides Grupo 6 - HOMU PROYECT (4)](https://user-images.githubusercontent.com/87093078/180590104-cf0b7bf7-d5e7-4dfa-8186-ba39e63aaf79.jpg)
+![Slides Grupo 6 - HOMU PROYECT (5)](https://user-images.githubusercontent.com/87093078/180590105-564f90fb-2a01-4c13-a772-9df3668de139.jpg)
+![Slides Grupo 6 - HOMU PROYECT (6)](https://user-images.githubusercontent.com/87093078/180590106-1d1f61c3-2df1-4268-9caa-1dddcdbc689a.jpg)
+![Slides Grupo 6 - HOMU PROYECT (7)](https://user-images.githubusercontent.com/87093078/180590125-369fc332-8b3f-4c5a-b688-205558eeedd0.jpg)
+![Slides Grupo 6 - HOMU PROYECT (8)](https://user-images.githubusercontent.com/87093078/180590127-6aaad4e2-6ef0-4bf5-a528-fbf1066c4bdf.jpg)
+![Slides Grupo 6 - HOMU PROYECT (9)](https://user-images.githubusercontent.com/87093078/180590128-5cce6665-9262-4c86-9515-c1f26e1f7fae.jpg)
+![Slides Grupo 6 - HOMU PROYECT (10)](https://user-images.githubusercontent.com/87093078/180590130-068a5ad8-468d-4a74-8103-606d983d07a2.jpg)
+![Slides Grupo 6 - HOMU PROYECT (11)](https://user-images.githubusercontent.com/87093078/180590133-9c0d5640-1b1f-42be-86af-f7e7f19dd7a6.jpg)
+![Slides Grupo 6 - HOMU PROYECT (12)](https://user-images.githubusercontent.com/87093078/180590134-65381a53-51a2-4655-abf7-c32c54e868f8.jpg)
+![Slides Grupo 6 - HOMU PROYECT (13)](https://user-images.githubusercontent.com/87093078/180590135-c1b6da9a-9b4f-49f0-b91c-5d7784861b33.jpg)
+![Slides Grupo 6 - HOMU PROYECT (14)](https://user-images.githubusercontent.com/87093078/180590142-7d9f937b-6a32-413b-8e9d-f47abdf18e9a.jpg)
+![Slides Grupo 6 - HOMU PROYECT](https://user-images.githubusercontent.com/87093078/180590226-ccd91360-01d1-44ae-beae-0f2303ab2c19.jpg)
+![Slides Grupo 6 - HOMU PROYECT (15)](https://user-images.githubusercontent.com/87093078/180590147-dc13689b-3cb6-437c-b947-5990b34fee84.jpg)
+![Slides Grupo 6 - HOMU PROYECT (16)](https://user-images.githubusercontent.com/87093078/180590150-829faf9e-2b2c-4aac-8022-3609525da6e3.jpg)
+![Slides Grupo 6 - HOMU PROYECT (17)](https://user-images.githubusercontent.com/87093078/180590151-a593b594-0ee2-444f-b20c-062cdcedb283.jpg)
+![Slides Grupo 6 - HOMU PROYECT (18)](https://user-images.githubusercontent.com/87093078/180590155-1e2ac453-ab23-4e95-9d56-337b1b9ae169.jpg)
+![Slides Grupo 6 - HOMU PROYECT (19)](https://user-images.githubusercontent.com/87093078/180590159-3991879a-f26b-405f-8aeb-80ff461b1131.jpg)
+![Slides Grupo 6 - HOMU PROYECT (20)](https://user-images.githubusercontent.com/87093078/180590163-999a4a57-7427-4d7c-88a6-160c6215c152.jpg)
+![Slides Grupo 6 - HOMU PROYECT (21)](https://user-images.githubusercontent.com/87093078/180590168-8236c928-7582-4d38-b0e1-b537a38c3ed4.jpg)
+![Slides Grupo 6 - HOMU PROYECT (22)](https://user-images.githubusercontent.com/87093078/180590169-2dfb0670-2d3e-403f-84b3-f9f336562dd3.jpg)
+![Slides Grupo 6 - HOMU PROYECT (23)](https://user-images.githubusercontent.com/87093078/180590179-ffad737b-7c01-4a89-9b2c-0530c8274a06.jpg)
+![Slides Grupo 6 - HOMU PROYECT (24)](https://user-images.githubusercontent.com/87093078/180590175-3fc70e37-c217-4784-be4b-15469289963b.jpg)
