@@ -538,7 +538,7 @@ DROP TABLE IF EXISTS `roles`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `roles` (
   `id` bigint NOT NULL,
-  `name` varchar(100) NOT NULL,
+  `name` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -571,7 +571,7 @@ CREATE TABLE `roles_sequence` (
 
 LOCK TABLES `roles_sequence` WRITE;
 /*!40000 ALTER TABLE `roles_sequence` DISABLE KEYS */;
-INSERT INTO `roles_sequence` VALUES (1);
+INSERT INTO `roles_sequence` VALUES (3);
 /*!40000 ALTER TABLE `roles_sequence` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -676,7 +676,7 @@ DROP TABLE IF EXISTS `users`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `users` (
   `id` bigint NOT NULL,
-  `avatar` varchar(400) DEFAULT NULL,
+  `avatar` varchar(255) DEFAULT NULL,
   `city` varchar(255) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
   `name` varchar(255) DEFAULT NULL,
@@ -695,7 +695,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'https://www.gravatar.com/avatar/75d23af433e0cea4c0e45a56dba18b30','Rosario','admin@gmail.com','Admin','$2a$10$d9HpoSyda/aZZdGcsLTIBu8cBL3/9xVoe5t52AV.iWh6bBglhMEoq','Admin',1);
+INSERT INTO `users` VALUES (1,'http://www.gravatar.com/avatar/611c128d129189b556c69df00dc782b4.png?d=https%3A%2F%2Fbucket-pig6.s3.us-east-2.amazonaws.com%2FLogos%2BHomu%2FLogoH.png','Rosario','administrador@homu.com','Administrador','$2a$10$bKJ7MKhwb9ufkat03MjcvOxC8np7SM2smyovCycLS3Ku9pFs0Qb.6','Administrador',1),(2,'http://www.gravatar.com/avatar/52037467dc98b7729381ceeac5af0772.png?d=https%3A%2F%2Fbucket-pig6.s3.us-east-2.amazonaws.com%2FLogos%2BHomu%2FLogoH.png','Rosario','usuario@homu.com','Usuario','$2a$10$.jw7JMezQwYigAa9d041M.tu7cRXGNgGIxswIy2Vqmg66BsAhsxBe','Usuario',2);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -717,7 +717,7 @@ CREATE TABLE `users_sequence` (
 
 LOCK TABLES `users_sequence` WRITE;
 /*!40000 ALTER TABLE `users_sequence` DISABLE KEYS */;
-INSERT INTO `users_sequence` VALUES (2);
+INSERT INTO `users_sequence` VALUES (3);
 /*!40000 ALTER TABLE `users_sequence` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -730,4 +730,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-07-05 15:13:49
+-- Dump completed on 2022-07-06 22:02:20
